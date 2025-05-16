@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Engelsiz Seyahat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="rota_olustur">ROTA OLUŞTUR</string>
+    <string name="drawer_open">Menüyü Aç</string>
+    <string name="drawer_close">Menüyü Kapat</string>
+</resources>

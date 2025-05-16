@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "463560355559",
+    "project_id": "engelsizseyahat-86490",
+    "storage_bucket": "engelsizseyahat-86490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463560355559:android:03f3eea98626c971357c42",
+        "android_client_info": {
+          "package_name": "com.example.esrdeneme5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

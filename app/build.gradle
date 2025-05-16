@@ -1,0 +1,79 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.deniz.ESR'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.deniz.ESR"
+        targetSdk 34
+        minSdk 24
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false // Hatalar build'i durdurmasın
+        warningsAsErrors false   // Uyarıları hata olarak algılamasın
+    }
+    buildFeatures {
+        viewBinding true
+    }
+
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.lifecycle.livedata.ktx
+    implementation libs.lifecycle.viewmodel.ktx
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    implementation libs.play.services.maps
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation libs.play.services.maps
+
+
+        implementation 'com.google.code.gson:gson:2.10.1'
+
+
+
+    // Firebase BOM (Bill of Materials)
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+
+    // Firebase Realtime Database veya Firestore kullanacaksan ekle
+    implementation libs.google.firebase.database
+
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.google.maps.android:android-maps-utils:3.9.0'
+
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.firebase:firebase-auth:22.1.0'
+    implementation 'com.google.android.libraries.places:places:2.7.0'
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+}

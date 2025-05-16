@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kirmizi_200">#E40F0F</color>
+    <color name="kirmizi_500">#1893f8</color>
+    <color name="purple_700">#3743D7</color>
+    <color name="teal_200">#2D51F6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

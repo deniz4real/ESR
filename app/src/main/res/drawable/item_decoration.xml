@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size android:height="3dp" />
+    <solid android:color="@android:color/darker_gray" />
+    <item android:top="@dimen/divider_top_margin">
+        <shape android:shape="rectangle">
+            <size android:height="4dp" />
+        </shape>
+    </item>
+</shape>

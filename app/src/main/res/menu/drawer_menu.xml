@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/house_solid"
+      android:title="Anasayfa" />
+    <item
+        android:id="@+id/menu_favorites"
+        android:title="Favori Rotalar"
+        android:icon="@android:drawable/star_on" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/log_in_and_out"
+        android:title="Giriş Yap" />
+
+
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@drawable/register"
+        android:title="Kayıt Ol" />
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/log_in_and_out"
+        android:title="Çıkış Yap"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Ayarlar"
+        android:icon="@drawable/settings" />
+</menu>
